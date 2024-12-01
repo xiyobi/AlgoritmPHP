@@ -78,14 +78,15 @@
 //}
 
 #leetCode - 747
-
-$nums = [3,6,1,0];
-$max = max($nums);
-$index = array_search($max, $nums);
-foreach ($nums as $num){
-    if ($num != $max and $max < 2 * $num){
-        return -1;
-    }
-}
-return $index;
+//
+//$nums = [3,6,1,0];
+//$max = max($nums);
+//$index = array_search($max, $nums);
+//foreach ($nums as $num){
+//    if ($num != $max and $max < 2 * $num){
+//        return -1;
+//    }
+//}
+//return $index;
+//
 
