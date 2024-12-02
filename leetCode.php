@@ -71,3 +71,54 @@
 //        return  $array;
 //    }
 //}
+
+//13-exam
+
+//$s = 'III';
+//$arr =  array(
+//    'I'=>1,
+//    'V'=>5,
+//    'X'=>10,
+//    'L'=>50,
+//    'C'=>100,
+//    'D'=>500,
+//    'M'=>1000
+//);
+//$length = strlen($s);
+//$result = 0;
+//for($i=0;$i<$length;$i++){
+//    $c = $arr[$s[$i]];
+//    $n = $i+1<$length ? $arr[$s[$i]] : 0;
+//    if ($c<$n){
+//        $result -= $c;
+//    }
+//    else{
+//        $result += $c;
+//    }
+//}
+//return $result;
+//
+//
+
+
+
+
+//class Solution {
+//
+//    /**
+//     * @param String[] $s
+//     * @return NULL
+//     */
+//    function reverseString(&$s) {
+//        $arr = $s;
+//        $length = count($s);
+//        $s = [];
+//        for ($i = $length-1; $i >= 0; $i--) {
+//            array_push($s, $arr[$i]);
+//
+//        }
+//
+//    }
+//
+//}
+

@@ -50,17 +50,17 @@
 //
 //print_r (array_merge($k,$e));
 
-$g = 158;
-
-while(1){
-    $cum = (str_split($g));
-    $sum = (array_sum($cum));
-    if($sum < 10){
-        print_r($sum);
-        break;
-    }
-    $g = $sum;
-}
+//$g = 158;
+//
+//while(1){
+//    $cum = (str_split($g));
+//    $sum = (array_sum($cum));
+//    if($sum < 10){
+//        print_r($sum);
+//        break;
+//    }
+//    $g = $sum;
+//}
 
 //$unli = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
 //$soz = "salomQalaysan";
